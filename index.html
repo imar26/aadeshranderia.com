@@ -155,10 +155,10 @@
                         <br/> Through my work experience and academic projects, I have developed the following technical skills:
                     </p>
                     <ul class="col-md-12 giggs-list">
-                        <li><span>Languages : </span>JavaScript, Angular 2/4, TypeScript, ECMAScript 6, SQL, Python, Shell Script (Unix)</li>
-                        <li><span>Web Technologies : </span>HTML5, CSS3, jQuery, Node.js, JSON, REST API, Passport.js, LESS, SASS, AJAX, PHP, React JS</li>
-                        <li><span>Frameworks : </span>Angular JS, Express.js, MEAN, MERN, WordPress, Bootstrap, Foundation, Drupal, Shopify, Flask</li>
-                        <li><span>Database : </span>MySQL, MSSQL, Mongo DB, PostgreSQL, Oracle, PL SQL, Redis</li>
+                        <li><span>Languages : </span>JavaScript, Angular 4, TypeScript, ECMAScript 6, PHP, SQL, Python, Shell Script (Unix)</li>
+                        <li><span>Web Technologies : </span>HTML5, CSS3, jQuery, Node.js, React JS, Ember.js, JSON, REST API, Passport.js, LESS, SASS, AJAX</li>
+                        <li><span>Frameworks : </span>Angular JS, Express.js, Backbone.js, MEAN, MERN, WordPress, Bootstrap, Foundation, Drupal, Shopify, Flask</li>
+                        <li><span>Database : </span>MySQL, MSSQL, Mongo DB, PostgreSQL, Oracle, PL SQL, Redis, Elasticsearch</li>
                         <li><span>Tools : </span>AWS, GCP, Webpack, JWT, WAMP Server, Axure RP, Moqups, Balsamiq, Adobe Photoshop, Docker, Grunt, Adobe Illustrator, Gulp, Git, GitHub, SVN, Postman, TravisCI, Toad Data Modeler</li>
                     </ul>
                     <a href="files/Resume.pdf" class="giggs_button top_15" download>DOWNLOAD CV</a>
@@ -184,6 +184,12 @@
                         <h3>Angular JS</h3>
                         <div class="progress">
                             <div class="percentage" style="width:85%;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Ember.js</h3>
+                        <div class="progress">
+                            <div class="percentage" style="width:70%;"></div>
                         </div>
                     </li>
                     <li>
@@ -261,9 +267,15 @@
                         </div>
                     </li>
                     <li>
-                        <h3>Angular 4</h3>
+                        <h3>Angular 2/4</h3>
                         <div class="progress">
                             <div class="percentage" style="width:80%;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Backbone.js</h3>
+                        <div class="progress">
+                            <div class="percentage" style="width:70%;"></div>
                         </div>
                     </li>
                     <li>
@@ -356,6 +368,12 @@
                         <h3>PHP</h3>
                         <div class="progress">
                             <div class="percentage" style="width:70%;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Elasticsearch</h3>
+                        <div class="progress">
+                            <div class="percentage" style="width:75%;"></div>
                         </div>
                     </li>
                     <li>
@@ -492,6 +510,12 @@
                             <div class="percentage" style="width:80%;"></div>
                         </div>
                     </li>
+                    <li>
+                        <h3>Travis CI</h3>
+                        <div class="progress">
+                            <div class="percentage" style="width:70%;"></div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -515,22 +539,41 @@
                             <div class="resume-info">
                                 <h2 class="info-title">Northeastern University, Boston, MA</h2>
                                 <p class="info-date">Sep 2016 - Aug 2018 </p>
+                                <span><strong><a href="https://t-kithub.herokuapp.com/" target="_blank">Ticket Booking Application</a></strong></span>
+                                <ul class="resume-ul">
+                                    <li>Designed and developed a complete web application using MEAN Stack allowing user to search, view and book ticket for any events</li>
+                                    <li>Fetched a wide range of events from Ticket master API and displayed events across various categories like Music, Films, Sports and Arts & Theatre</li>
+                                    <li>Implemented Authentication and Authorization of the user, Login, Signup and Logout feature using Passport.js</li>
+                                    <li>Incorporated social media OAuth Strategies to allow user to login using Google and Facebook accounts</li>
+                                    <li>Integrated geolocation feature which takes user's current location and displays top 3 upcoming events of that particular location</li>
+                                    <li>Created Angular pipes to implement filter feature by name, location, category, price and date and sort feature by name, location and date</li>
+                                    <li>Incorporated add to cart feature enabling the user to select the package and quantity of tickets of their choice</li>
+                                    <li>Utilized Stripe API to allow the user to purchase tickets of the events added to the cart</li>                                    
+                                </ul>
+                                <br/>
+                                <span><strong><a href="https://github.com/imar26/react-nodejs-newsapi" target="_blank">News App</a></strong></span>
+                                <ul class="resume-ul">
+                                    <li>Created a news application which fetches news articles from an external API vendor and displays them in web application</li>
+                                </ul>
+                                <br/>
+                                <span><strong><a href="https://my-url-shorten.herokuapp.com/" target="_blank">URL Shortening App</a></strong></span>
+                                <ul class="resume-ul">
+                                    <li>Developed an URL-Shortening APP using Angular 4, Node.js, Express.js and REST API which takes the entire URL as the input</li>
+                                    <li>Converted the input into a 6 digit short unique uid and returned back to the user with a shortened link</li>
+                                    <li>Used Redis database to store the uid and value of the original long url and utilized Kibana Server and Console for full text searching of indexed documents in Elasticsearch</li>
+                                </ul>
+                                <br/>
                                 <span><strong><a href="https://github.com/imar26/advanced-big-data-indexing-app" target="_blank">REST API Development for Medical Plans</a></strong></span>
                                 <ul class="resume-ul">
-                                    <li>Created a RESTful Web Service for the medical plans using Node.js and Redis cache storage with the ability to perform CRUD (Create, Read, Update and Delete) operations using HTTP Get, Post, Put and Delete Request Methods</li>
-                                    <li>Designed a scalable API that supports any JSON document structure with complete JSON Schema Validation</li>
-                                    <li>Incorporated access authorizations for users based on roles using JSON Web Token specifications with full encryption and decryption method</li>
-                                    <li>Involved the concept of E-tags for conditional GET and PUT requests using MD5 hashing technique</li>
+                                    <li>Created a RESTful Web Service for medical plans using Node.js and Redis cache storage to perform CRUD operations</li>
+                                    <li>Incorporated access authorizations for users using JSON Web Token specifications with full encryption and decryption method</li>
+                                    <li>Utilized Kibana Server and Console for full text searching of indexed documents in Elasticsearch</li>
                                 </ul>
                                 <br/>
                                 <span><strong><a href="https://github.com/imar26/javascript-spreadsheet" target="_blank">JavaScript Spreadsheet</a></strong></span>
                                 <ul class="resume-ul">
-                                    <li>Created a Spreadsheet application using JavaScript, ECMAScript 6, HTML5, CSS3 and Webpack</li>
-                                    <li>Integrated features like add row, add column, delete row and delete column on click of a button in the application</li>
-                                    <li>Performed various arithmetic operations such as Addition, Subtraction, Multiplication, Division and Modulus on selected multiple rows or columns and display their output in the cell</li>
-                                    <li>Incorporated feature such as updating the output cell on changing the value of the selected rows or columns</li>
-                                    <li>Exported all the cell entries into a CSV</li>
-                                    <li>Used Webpack to bundle all the JavaScript and CSS files into one single file to optimize the load time of the web page and minimize the size of the assets</li>
+                                    <li>Created a Spreadsheet application like excel having features such as addition and deletion of row and columns, performing all the basic arithmetic operation on the cells, and exporting the cell entries into a CSV</li>
+                                    <li>Used Webpack to bundle all JavaScript and CSS files into one file to optimize load time of web page and minimize size of assets</li>
                                 </ul>
                                 <br/>
                                 <span><strong><a href="https://github.com/imar26/todo-list-cloud-computing" target="_blank">TODO Application</a></strong></span>
@@ -558,21 +601,8 @@
                                 <span><strong>Re-design of RSO Website</strong></span>
                                 <ul class="resume-ul">
                                     <li>Revamped the website to overcome the technical and functional flaws in the system and providing better user interface</li>
-                                    <li>Created Personas and Storyboarding to understand the need of whole range of real users</li>
                                     <li>Developed wireframes using tools like Moqups and Balsamiq and created a fully working prototype using Axure RP</li>
                                     <li>Performed usability testing and automated functional testing using Selenium IDE</li>
-                                </ul>
-                                <br/>
-                                <span><strong><a href="https://github.com/imar26/food-drive" target="_blank">Food Drive (Food Wastage Management System)</a></strong></span>
-                                <ul class="resume-ul">
-                                    <li>Developed a Java Swing application using an Ecosystem model for an organization which collects leftover food from various sources such as individuals, hotels, events and distributes the food to the needy by setting up food stores daily at different locations</li>
-                                    <li>Stored extra food in the inventory of the organization obtained from different sources</li>
-                                    <li>Communicated successfully between all the departments in the application</li>
-                                    <li>Implemented work queues and requests for every role and employees involved in the application</li>
-                                    <li>Added functionalities through which work was assigned to the employees based on their availability</li>
-                                    <li>Developed an algorithm to determine the nearest 3 stall locations using Google-API to fetch their real time locations</li>
-                                    <li>Attained a logic for broadcasting work requests and having them solved partially by multiple employees</li>
-                                    <li>Performed analysis and answered various analytical questions with the use of Bar Graphs and Pie Charts using JFreeCharts</li>
                                 </ul>
                                 <br/>
                                 <span><strong>IMDB Database</strong></span>
@@ -596,7 +626,7 @@
                             <div class="resume-info">
                                 <h2 class="info-title">Northeastern University College of Engineering</h2>
                                 <span>Graduate Teaching Assistant</span>
-                                <p class="info-date">Jan 2018 - Present </p>
+                                <p class="info-date">Jan 2018 - Apr 2018</p>
                                 <ul class="resume-ul">
                                     <li>Conducted lab sessions and provided infrastructure support to students to run data science projects on custom-built platform</li>
                                 </ul>
@@ -677,6 +707,7 @@
                         <ul>
                             <li class="select-cat" data-filter="*">All</li>
                             <li data-filter=".angular">Angular</li>
+                            <li data-filter=".react">React</li>
                             <li data-filter=".node">Node</li>
                             <li data-filter=".javascript">JavaScript</li>
                             <li data-filter=".e-commerce">E-Commerce</li>
@@ -687,6 +718,62 @@
                 <div class="col-md-12 col-sm-12 col-xs-12 top_30">
                     <div class="isotope_items row">
                         <!-- Item -->
+                        <div class="single_item link angular node javascript col-md-6 col-sm-6">
+                            <a href="https://t-kithub.herokuapp.com/" target="_blank">
+                                <div class="work-inner">
+                                    <div class="work-overlay">
+                                        <div class="overlay-in">
+                                            <div class="work-info">
+                                                <p>T-Kithub, An Ticket Booking Application</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="images/t-kithub.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single_item link angular node javascript col-md-6 col-sm-6">
+                            <a href="https://my-url-shorten.herokuapp.com/" target="_blank">
+                                <div class="work-inner">
+                                    <div class="work-overlay">
+                                        <div class="overlay-in">
+                                            <div class="work-info">
+                                                <p>URL Shortening App</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="images/url-shorten.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single_item link angular javascript col-md-6 col-sm-6">
+                            <a href="https://todo-list-angular2-sass.firebaseapp.com/" target="_blank">
+                                <div class="work-inner">
+                                    <div class="work-overlay">
+                                        <div class="overlay-in">
+                                            <div class="work-info">
+                                                <p>TODO List Application using Angular 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="images/todo-angular4.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="single_item link react javascript col-md-6 col-sm-6">
+                            <a href="https://todo-list-reactjs-app.firebaseapp.com/" target="_blank">
+                                <div class="work-inner">
+                                    <div class="work-overlay">
+                                        <div class="overlay-in">
+                                            <div class="work-info">
+                                                <p>TODO List Application using React JS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="images/todo-react.png" alt="">
+                                </div>
+                            </a>
+                        </div>
                         <div class="single_item link javascript col-md-6 col-sm-6">
                             <a href="https://github.com/imar26/javascript-spreadsheet" target="_blank">
                                 <div class="work-inner">
